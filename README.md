@@ -58,9 +58,8 @@ Heading | Description
 "PHOTO" | A Picture link of the park.
 
 An example of a response would be *http://playgrounds.ie/parking/[yes]*:
-   
-    ```json     
-     {   
+```json
+{   
         "Location_o": "Moylough (Maigh Locha)",
         "AGE_GROUP": "0 to 12 years",
         "List_of_Eq": "Cable Runway, Basket Swing, Cradle Swings,  Toddlers Multiplay and Slide",
@@ -68,8 +67,8 @@ An example of a response would be *http://playgrounds.ie/parking/[yes]*:
         "OPENING_HO": "Daylight Hours",
         "PARKING": "YES",
         "PHOTO": "http://www.galway.ie/gis/playgrounds/12.jpg"
-    }    
-    ```       
+}   
+```       
 
 
 
