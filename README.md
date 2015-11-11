@@ -18,7 +18,8 @@ There are 16 values on each line, which are as follows:
 
 Heading | Description  
 ---------|-----------
-"OBJECTID" | An ID given to each park. 
+"X" | A X gps position. 
+"Y" | A Y gps position. 
 "FID" | An ID given to each park. 
 "OBJECTID" | An ID given to each park. 
 "LOCATION" | A Location of each park e.g "Roundstone".
@@ -28,9 +29,10 @@ Heading | Description
 "AGE_GROUP" | The age group of the park.
 "List_of_Eq" | List of equipment in the parks eg slide,swings etc.
 "Liosta_Tre" | List of equipment in the parks in irish.
-"List_of_00" | List of equipment for juniors e.g Junior Swing.
+"List_of_00" | List of extra equipment for juniors e.g Junior Swing.
 "PUBLIC_TOI" | Is there public toilets.
 "OPENING_HO" | Opening times for the parks. 
 "PARKING" | Is there parking available.
-"PHOTO" | Picture of the park. 
+"PHOTO" | A Picture link of the park. 
 
+##Designing a set of URLs that I think would be useful for querying the dataset.
