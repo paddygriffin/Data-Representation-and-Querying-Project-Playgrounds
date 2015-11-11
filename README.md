@@ -11,6 +11,8 @@ This is a project provides the design and documentation for the dataset "Playgro
 * Equipment
 * Parking
 
+Which I think will be very beneficial for the community and others around Co.Galway. 
+
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*data.gov.ie*](https://data.gov.ie/dataset/playgrounds-county-galway).
 The CSV file contains 63 rows, the first being a header row with the names of each field.
@@ -70,8 +72,8 @@ An example of a response would be *http://playgrounds.ie/parking/yes*:
 }   
 ```       
 
-###2 - Playgrounds around my location
-I believe that many users would use this API for finding out the location of a local playground in Co.Galway.
+###2 - Playgrounds around a certain location
+I believe that many users would use this API for finding out the location of a local playground in Co.Galway. The target audience would be recently moved in residents or tourists with children.
 
 You can get a list of Playgrounds near you or in a specific area, based on the location (Location_o) using a GET method at the following URL:
 *http://playgrounds.ie/location/[Location_o]*
@@ -106,5 +108,6 @@ An example of a response from the URL: *http://playgrounds.ie/location/Roundston
 }
 ```
 
+###3 - Playgrounds equipment
 
 
