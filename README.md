@@ -35,4 +35,41 @@ Heading | Description
 "PARKING" | Is there parking available.
 "PHOTO" | A Picture link of the park. 
 
-##Designing a set of URLs that I think would be useful for querying the dataset.
+###Designing a set of API's URLs that I think would be useful for querying the dataset.
+###1 - Parking
+I believe Parking availability would be a popular for parents with children and who need to travel.
+
+You can get a list of playgrounds with parking availability using the GET method at the following URL:
+*http://playgrounds.ie/parking/[parking]*
+where you replace [parking] with either yes or no.
+For example, the URL:
+*http://playgrounds.ie/parking/[yes]*
+will return a list of playgrounds with parking.
+The data will be returned in JSON format, with the following properties for each playground which I believe is necessary for parents to know and also added extra info which I believe that they need:
+
+Heading | Description  
+---------|-----------
+"LOCATION" | A Location of each park e.g "Roundstone".
+"AGE_GROUP" | The age group of the park.
+"List_of_Eq" | List of equipment in the parks eg slide,swings etc.
+"PUBLIC_TOI" | Is there public toilets.
+"OPENING_HO" | Opening times for the parks. 
+"PARKING" | Is there parking available.
+"PHOTO" | A Picture link of the park.
+
+An example of a response would be *http://playgrounds.ie/parking/[yes]*:
+   
+    ```json
+     {
+        "Location_o": "Moylough (Maigh Locha)",
+        "AGE_GROUP": "0 to 12 years",
+        "List_of_Eq": "Cable Runway, Basket Swing, Cradle Swings,  Toddlers Multiplay and Slide",
+        "PUBLIC_TOI": "Yes",
+        "OPENING_HO": "Daylight Hours",
+        "PARKING": "YES",
+        "PHOTO": "http://www.galway.ie/gis/playgrounds/12.jpg"
+    }
+    ```
+
+
+
