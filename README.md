@@ -28,7 +28,7 @@ Heading | Description
 "Liosta_Tre" | List of equipment in the parks in irish.
 "List_of_00" | List of equipment for juniors e.g Junior Swing.
 "PUBLIC_TOI" | Is there public toilets.
-"OPENING_HO" | Opening times for the parks. *
+"OPENING_HO" | Opening times for the parks. 
 "PARKING" | Is there parking available.
-"PHOTO" | Picture of the park. **
+"PHOTO" | Picture of the park. 
 
