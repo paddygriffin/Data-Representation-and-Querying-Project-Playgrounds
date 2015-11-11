@@ -14,10 +14,12 @@ This is a project provides the design and documentation for the dataset "Playgro
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*data.gov.ie*](https://data.gov.ie/dataset/playgrounds-county-galway).
 The CSV file contains 63 rows, the first being a header row with the names of each field.
-There are 13 values on each line, which are as follows:
+There are 16 values on each line, which are as follows:
 
 Heading | Description  
 ---------|-----------
+"OBJECTID" | An ID given to each park. 
+"FID" | An ID given to each park. 
 "OBJECTID" | An ID given to each park. 
 "LOCATION" | A Location of each park e.g "Roundstone".
 "AREA" | Area of each park e.g "West Galway".
