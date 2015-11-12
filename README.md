@@ -110,4 +110,41 @@ An example of a response from the URL: *http://playgrounds.ie/location/Roundston
 
 ###3 - Playgrounds equipment
 
+It is important to show a playgrounds equiment as some people would like to know what the park contains for example slides,swings etc.
+
+You can get a list of a Playgrounds equipment, based on what equipment the playground contains(List_of_Eq) using a GET method at the following URL:
+*http://playgrounds.ie/equipment/[List_of_Eq]*
+
+From the URL above, [List_of_Eq] is where the user could enter in the equipment of what they want, Eg: Springer,. The user would then be provided with a list of playgrounds that have a Springer or other equipment.
+
+The data will be returned in JSON format, with the following properties for each Playground:
+
+Heading | Description  
+---------|-----------
+"List_of_Eq" | List of equipment in the parks eg slide,swings etc.
+"Liosta_Tre" | List of equipment in the parks in irish.
+"List_of_00" | List of extra equipment for juniors e.g Junior Swing.
+"LOCATION" | A Location of each park e.g "Roundstone".
+"AGE_GROUP" | The age group of the park.
+"PUBLIC_TOI" | Is there public toilets.
+"OPENING_HO" | Opening times for the parks. 
+"PARKING" | Is there parking available.
+"PHOTO" | A Picture link of the park.
+
+An example of a response from the URL: *http://playgrounds.ie/equipment/Springer* would be:
+```json
+{
+    "List_of_Eq": "[Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer]",
+    "Liosta_Tre": "[Dreapadóir le Sleamhnán, Luascán Cothrom,  Luascán Cliabháin , Lingeadan, Maide Corrach]",
+    "List_of_00": "[List of extra equipment for juniors e.g Junior Swing]",
+    "Location_o": "Roundstone (Cloch na Ron)",
+    "AGE_GROUP": "0 to 16 Years",
+    "PUBLIC_TOI": "No",
+    "OPENING_HO": "Daylight Hours",
+    "PARKING": "YES",
+    "PHOTO": "http://www.galway.ie/gis/playgrounds/1.jpg"
+}
+```
+
+
 
