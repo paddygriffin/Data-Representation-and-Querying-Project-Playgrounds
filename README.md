@@ -37,6 +37,30 @@ Heading | Description
 "PARKING" | Is there parking available.
 "PHOTO" | A Picture link of the park. 
 
+An example of json format with all information:
+
+```json
+{   
+        "X": "-1104192",
+        "Y": "7056858",
+        "FID": "1",
+        "ID": "1",
+        "Location_o": "Roundstone (Cloch na Ron)",
+        "Area_": "West Galway - Conamara",
+        "Managed_By": "Roundstone Playground Committee",
+        "Playground": "Roundstone Village, Connemara",
+        "AGE_GROUP": "0 to 16 Years",
+        "List_of_Eq": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide",
+        "Liosta_Tre": "Dreapadóir le Sleamhnán, Luascán Cothrom,  Luascán Cliabháin , Lingeadan, Maide Corrach, srl.",
+        "List_of_00": "Toddler swings",
+        "PUBLIC_TOI": "NO",
+        "OPENING_HO": "Daylight Hours",
+        "PARKING": "YES",
+        "PHOTO": "http://www.galway.ie/gis/playgrounds/1.jpg"
+}   
+```       
+
+
 ###Designing a set of API's URLs that I think would be useful for querying the dataset.
 ###1 - Parking
 I believe Parking availability would be a popular for parents with children and who need to travel.
