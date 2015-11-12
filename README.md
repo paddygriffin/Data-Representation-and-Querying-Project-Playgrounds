@@ -7,9 +7,9 @@
 ##Introduction
 
 This is a project provides the design and documentation for the dataset "Playground" which is available at [Click here](https://data.gov.ie/dataset/playgrounds-county-galway) this data is based on playgrounds within **Co.Galway.** It provides useful information on:
-* Location
-* Equipment
 * Parking
+* location
+* equipment
 
 Which I think will be very beneficial for the community and others around Co.Galway. 
 
@@ -63,7 +63,7 @@ An example of json format with all information:
 
 ###Designing a set of API's URLs that I think would be useful for querying the dataset.
 ###1 - Parking
-I believe Parking availability would be a popular for parents with children and who need to travel.
+I believe Parking availability would be a popular for parents with children and who need to travel, this is appropriate to the audience who seek information on parking.
 
 You can get a list of playgrounds with parking availability using the GET method at the following URL:
 *http://playgrounds.ie/parking/[parking]*
@@ -155,7 +155,7 @@ Heading | Description
 "PARKING" | Is there parking available.
 "PHOTO" | A Picture link of the park.
 
-An example of a response from the URL: *http://playgrounds.ie/equipment/Springer* would be:
+An example of a response from the URL: *http://www.playgrounds.ie/equipment/Springer* would be:
 ```json
 {
     "List_of_Eq": "[Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer]",
@@ -170,5 +170,16 @@ An example of a response from the URL: *http://playgrounds.ie/equipment/Springer
 }
 ```
 
+### Breakdown of each sub part of a sample URL
+Here is an example of a breakdown of a link 
+ ``` http://www.galway.ie/gis/playgrounds/1.jpg ```
+
+|  URL Section     | Explanation  |
+|:----------------:|:--------------------------:|
+| http  | Protocol being used |
+| www        | SubDomain |
+| galway.ie | Domain | 
+| /gis/playgrounds/ | Path |  
+| 1.jpg | The Search Criteria |
 
 
